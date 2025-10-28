@@ -1,0 +1,26 @@
+package br.edu.atitus.currencyservice.clients;
+
+import br.edu.atitus.currencyservice.entities.CurrencyEntity;
+
+import java.util.List;
+
+public class CurrencyBCResponse {
+
+    private List<CurrencyBC> value;
+    public List<CurrencyBC> getValue() {
+        return value;
+    }
+    public void setValue(List<CurrencyBC> value) {
+        this.value = value;
+    }
+    public static class CurrencyBC{
+
+        private  double cotacaoVenda;
+        public double getCotacaoVenda() {
+            return cotacaoVenda;
+        }
+        public void setCotacaoVenda(double cotacaoVenda) {
+            this.cotacaoVenda = cotacaoVenda;
+        }
+    }
+}

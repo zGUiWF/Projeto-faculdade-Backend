@@ -1,0 +1,3 @@
+# Microservices Java: Arquitetura Distribuída com Spring Boot e Spring Cloud
+
+Este repositório apresenta uma arquitetura de microsserviços robusta e escalável, desenvolvida em **Java** utilizando o framework **Spring Boot** e o ecossistema **Spring Cloud**. O projeto demonstra a implementação de padrões essenciais de microsserviços, como Service Discovery, API Gateway, Configuração Centralizada, Segurança (JWT) e Circuit Breaker.
